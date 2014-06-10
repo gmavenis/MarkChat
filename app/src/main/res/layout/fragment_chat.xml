@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <RelativeLayout
+        android:id="@+id/messagebox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/dark_blue"
+        android:padding="5dp">
+
+            <Button
+                android:id="@+id/send"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:gravity="center_horizontal"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/ic_action_send" />
+
+            <EditText
+                android:id="@+id/message"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@id/send"
+                android:layout_centerHorizontal="true"
+                android:background="@color/white"
+                android:paddingLeft="2dp"
+                android:paddingRight="2dp"
+                android:hint="@string/type_message"
+                android:lines="2"/>
+
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/messagelist"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@color/light_gray"
+        android:dividerHeight="1dp"
+        android:stackFromBottom="true"
+        android:transcriptMode="alwaysScroll"
+        android:layout_above="@id/messagebox" />
+
+</RelativeLayout>

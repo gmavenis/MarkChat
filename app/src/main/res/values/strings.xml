@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MarkChat</string>
+
+    <!-- Action Bar Menu -->
+    <string name="action_signout">Sign Out</string>
+    <string name="action_about">About</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Sign-in Screen -->
+    <string name="username">Username</string>
+    <string name="sign_in">Sign In</string>
+    <string name="blank_username">Username cannot be blank.</string>
+
+    <!-- About Dialog -->
+    <string name="about_markchat">About MarkChat</string>
+    <string name="about_message">MarkChat is the best chatting app available for Android. Not only do you get to chat with yourself, but you
+                                 can @mention other people and include (emoticons) in your messages. Also, you can view the JSON format of
+                                 each message by long-pressing the message. Enjoy!</string>
+
+    <!-- Sign-out Dialog -->
+    <string name="are_you_sure">Are you sure?</string>
+    <string name="signout_message">Signing out will delete this conversation.</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+
+    <!-- Main Chat Window -->
+    <string name="type_message">Type message</string>
+
+    <!-- JSON Dialog -->
+    <string name="json_string">JSON String</string>
+    <string name="ok">Ok</string>
+
+    <!-- Colors -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="dark_gray">#888888</color>
+    <color name="gray">#CCCCCC</color>
+    <color name="light_gray">#EEEEEE</color>
+    <color name="light_green">#E2F0B6</color>
+    <color name="dark_blue">#0099CC</color>
+    <color name="orange">#FFA713</color>
+
+    <!-- Button -->
+    <color name="button_normal">#6DCAEC</color>
+    <color name="button_pressed">#50C0E9</color>
+
+</resources>
